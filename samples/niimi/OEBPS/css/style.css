@@ -22,7 +22,7 @@ html {
   margin-right: auto;
   /* 以下、マージンボックスに継承される */
   font-size: 5.5pt;
-  font-family: "游明朝", "YuMincho", "Hiragino Mincho ProN", serif;
+  font-family: "微軟正黑體","游明朝", "YuMincho", "Hiragino Mincho ProN", serif;
   /* 本来不要（ルート要素の指定が継承される）だが、現時点のvivliostyle.jsの制限により必要 */
   vertical-align: top; }
 
@@ -47,7 +47,7 @@ html {
 
 html {
   /* フォント */
-  font-family: "游明朝", "YuMincho", "Hiragino Mincho ProN", serif;
+  font-family:"微軟正黑體", "游明朝", "YuMincho", "Hiragino Mincho ProN", serif;
   font-weight: normal;
   /* 行末揃え */
   text-align: justify;
@@ -148,7 +148,7 @@ figcaption {
   .colophon p {
     text-indent: 0; }
 
-/* 改ページ */
+/* 換頁 */
 .page-break {
   page-break-before: always; }
 
@@ -160,13 +160,13 @@ figcaption {
   padding-top: 2em;
   text-indent: 0; }
 
-/* 目次 */
+/* 目錄 */
 .toc ol {
   list-style: none; }
   .toc ol a {
     text-decoration: none; }
 
-/* 表紙 */
+/* 封面 */
 .cover h1 {
   line-height: 17.75em;
   margin-right: 1.75em; }
